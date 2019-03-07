@@ -3,7 +3,7 @@
   text-decoration: none;
 }
 .wrapper {
-  padding: 16px;
+  padding: 0;
 }
 
 .hero-image {
@@ -99,6 +99,6 @@ footer {
   }
 
   #main-nav a:hover {
-    border: 1px solid white; 
+    border: 1px solid white;
   }
 }
