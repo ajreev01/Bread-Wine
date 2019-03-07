@@ -1,0 +1,104 @@
+*{
+  box-sizing: border-box;
+  text-decoration: none;
+}
+.wrapper {
+  padding: 16px;
+}
+
+.hero-image {
+  background-image: url("../img/beach.jpeg");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding-top: 150px;
+  padding-bottom: 150px;
+
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 80px;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Lato', sans-serif;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  font-weight: lighter;
+}
+
+h3 {
+  line-height: 30px;
+  margin: 0 auto;
+  padding-top: 50px;
+  padding-bottom: 10px;
+  width: 100%;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  /* border: 1px solid red; */
+}
+
+.sub-title {
+  font-size: 20px;
+  text-align: center;
+  padding-bottom: 20px;
+  color: #41837E;
+}
+
+p {
+  font-family: font-family: 'Lato', sans-serif;
+  line-height: 30px;
+  margin: 0 auto;
+  width: 50%;
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+#main-nav {
+  /* background-color: #0D4D4B; */
+  margin-top: 0;
+  padding: 5px;
+  display: flex;
+  justify-content: space-around;
+  background-color: #0D4E49;
+}
+#main-nav a{
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  list-style-type: none;
+  padding: 14px;
+  color: white;
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+
+#main-nav a:hover{
+  color: #D1686D;
+}
+
+footer {
+  text-align: center;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 790px) {
+  #main-nav {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #main-nav a{
+    text-align: center;
+  }
+
+  #main-nav a:hover {
+    border: 1px solid white; 
+  }
+}

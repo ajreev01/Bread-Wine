@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="style4.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+</head>
+<body>
+  <ul id="main-nav">
+    <a href="index.html">Home</a>
+    <a href="pageTwo.html">Scriptures</a>
+    <a href="pageThree.html">Prayer</a>
+    <a href="#pageFour.html">Contact</a>
+  </ul>
+  <div class="container">
+    <form id="contact" action="" method="post">
+      <h3>Looking For A Church?</h3>
+      <h4>Contact us today, and we will help you find one!</h4>
+      <fieldset>
+        <input placeholder="Your name" type="text" tabindex="1" required autofocus>
+      </fieldset>
+      <fieldset>
+        <input placeholder="Your Email Address" type="email" tabindex="2" required>
+      </fieldset>
+      <fieldset>
+        <input placeholder="Your Phone Number" type="tel" tabindex="3" required>
+      </fieldset>
+      <fieldset>
+        <textarea placeholder="Type your Message Here...." tabindex="5" required></textarea>
+      </fieldset>
+      <fieldset>
+        <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+      </fieldset>
+    </form>
+
+    <button type="button" onClick = "revealMessage()">Remember</button>
+    <p id="hiddenMessage" style="display:none">"For God so loved the world, that he gave his only Son, that whoever believes in him should not perish but have eternal life."
+    </p>
+  </div>
+<script src="script.js"></script>
+<footer>&copy2019 Bread and Wine, Jesus Saves Inc.</footer>
+</body>
+</html>
