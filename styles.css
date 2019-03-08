@@ -88,6 +88,14 @@ footer {
   margin-top: 10px;
 }
 
+.zoom {
+  transition: transform .2s;
+}
+
+.zoom a:hover {
+  transform: scale(1.2);
+}
+
 @media screen and (max-width: 790px) {
   #main-nav {
     display: flex;
@@ -96,9 +104,5 @@ footer {
 
   #main-nav a{
     text-align: center;
-  }
-
-  #main-nav a:hover {
-    border: 1px solid white;
   }
 }
