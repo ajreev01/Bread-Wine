@@ -36,11 +36,12 @@
         <textarea placeholder="Type your Message Here...." tabindex="5" required></textarea>
       </fieldset>
       <fieldset>
-        <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+        <div class="grow">
+          <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+        </div>
       </fieldset>
     </form>
-
-    <button type="button" onClick = "revealMessage()">Remember</button>
+    <button class="remember" type="button" onClick = "revealMessage()">Remember</button>
     <p id="hiddenMessage" style="display:none">"For God so loved the world, that he gave his only Son, that whoever believes in him should not perish but have eternal life."
     </p>
   </div>
