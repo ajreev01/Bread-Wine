@@ -1,3 +1,9 @@
+$(document).ready(function(){
+
+/*! Fades in page on load */
+$('#contact').css('display', 'none');
+$('#contact').fadeIn("3000");
+});
 
 function revealMessage() {
   var message = document.getElementById("hiddenMessage");
