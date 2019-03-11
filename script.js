@@ -13,3 +13,9 @@ function revealMessage() {
     message.style.display = "none";
   }
 }
+
+$("button").click(function() {
+    $('html,body').animate({
+        scrollTop: $("#hiddenMessage").offset().top},
+        'slow');
+});
