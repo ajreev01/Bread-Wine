@@ -21,7 +21,7 @@
 	font-size: 40px;
 	font-weight: 600;
   line-height: 50px;
-  padding-bottom: 40px;
+  padding-bottom: 50px;
 }
 
 #contact h4 {
@@ -119,7 +119,7 @@ color: white;
 #hiddenMessage:hover {
 	cursor: pointer;
 	color: #FFC2AA;
-
+}
 
 @media screen and (max-width: 790px) {
 
