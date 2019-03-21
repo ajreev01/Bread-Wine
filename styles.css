@@ -6,10 +6,12 @@
   padding: 0;
 }
 
+/* Basic Styles */
+
 .hero-image {
   background-image: url("../img/beach.jpeg");
   height: 50%;
-  margin-bottom: 80px; 
+  margin-bottom: 80px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -69,7 +71,6 @@ p {
 }
 
 #main-nav {
-  /* background-color: #0D4D4B; */
   margin-top: 0;
   padding: 5px;
   display: flex;
@@ -84,8 +85,6 @@ p {
   color: white;
   font-size: 18px;
   letter-spacing: 2px;
-  /* border: 1px solid white; */
-
 }
 
 #main-nav a:hover{
@@ -108,7 +107,15 @@ footer {
   transform: scale(1.2);
 }
 
+/* Media Queries */
+
 @media screen and (max-width: 790px) {
+  h1 {
+    font-size: 48px;
+    display: flex;
+    justify-content: center;
+  }
+
   #main-nav {
     display: flex;
     flex-direction: column;
@@ -117,4 +124,8 @@ footer {
   #main-nav a{
     text-align: center;
   }
+}
+
+@-ms-viewport{
+  width: device-width;
 }

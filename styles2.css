@@ -16,10 +16,19 @@ img {
   width: 100%;
 }
 
+.page2-title {
+  padding-top: 45px;
+}
+
 @media screen and (max-width: 790px) {
   .image {
     width: 100%;
     margin-bottom: 20px;
+    padding-bottom: 50px; 
     padding-top: 5px;
   }
+}
+
+@-ms-viewport{
+  width: device-width;
 }

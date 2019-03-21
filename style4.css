@@ -1,4 +1,6 @@
 
+/* Form Layout and Styling */
+
 .container {
 	max-width:900px;
 	width:100%;
@@ -123,6 +125,10 @@ color: white;
 
 @media screen and (max-width: 790px) {
 
+	#contact {
+		margin-top: 20px;
+	}
+
 	button {
 	padding: 20px;
 	font-size: 16px;
@@ -132,4 +138,8 @@ color: white;
 	button:hover {
 	background-color: #DF7951;
 	color: white;
+	}
+
+	@-ms-viewport{
+	  width: device-width;
 	}
