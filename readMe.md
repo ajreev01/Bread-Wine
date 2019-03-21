@@ -1,7 +1,7 @@
 
-# My Simple Webpage
+# Bread & Wine
 
-### A bit about the page.
+### Small Details About A Small Page
 
 ```
 This project is my very first web-page. I wanted to create a simple web-page that showcased what I've been learning in Code Louisville. I wanted to make a mock web-page for my church as a way to reach people looking for a new church home. This web page includes HTML, CSS & a bit of JavaScript.
