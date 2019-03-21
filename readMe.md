@@ -40,7 +40,7 @@ navigation link.
 ### JavaScript Functions
 ```
 revealMessage - When the user clicks on 'remember' button on
-contact page, the message hidden within will be revealed.
+contact page, the message hidden within the button will be revealed.
 
 The click listener for button containing an anonymous function
 centers viewport to contents of revealMessage button by scrolling
