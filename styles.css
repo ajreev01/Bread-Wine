@@ -110,6 +110,7 @@ footer {
 /* Media Queries */
 
 @media screen and (max-width: 790px) {
+
   h1 {
     font-size: 48px;
     display: flex;
