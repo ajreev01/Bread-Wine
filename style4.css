@@ -50,6 +50,8 @@ fieldset {
 	padding:10px;
 }
 
+/*Styling on hover*/
+
 #contact input[type="text"]:hover, #contact input[type="email"]:hover, #contact input[type="tel"]:hover, #contact input[type="url"]:hover, #contact textarea:hover {
 	-webkit-transition:border-color 0.3s ease-in-out;
 	-moz-transition:border-color 0.3s ease-in-out;
@@ -63,6 +65,8 @@ fieldset {
   resize:none;
 }
 
+/*Submit button style*/
+
 #contact button[type="submit"] {
 	cursor:pointer;
 	width:100%;
@@ -73,6 +77,8 @@ fieldset {
 	padding:15px;
 	font-size:16px;
 }
+
+/*Submit button on hover style*/
 
 #contact button[type="submit"]:hover {
 	background:#FFC2AA;
@@ -111,6 +117,7 @@ background-color: #DF7951;
 color: white;
 }
 
+/*Styling for message that is revealed once 'Remember' button is clicked*/
 
 #hiddenMessage {
   font-size: 30px;
@@ -118,10 +125,18 @@ color: white;
 	margin-bottom: 40px;
 }
 
+/*Styling for 'hidden message' on hover*/
+
 #hiddenMessage:hover {
 	cursor: pointer;
 	color: #FFC2AA;
 }
+
+h3 {
+	letter-spacing: 0.5px;
+}
+
+/*Media Queries*/
 
 @media screen and (max-width: 790px) {
 

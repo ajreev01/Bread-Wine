@@ -21,6 +21,8 @@ img {
   padding-top: 47px;
 }
 
+/*Media Queries*/
+
 @media screen and (max-width: 790px) {
   .image {
     width: 100%;

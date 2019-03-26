@@ -38,13 +38,12 @@ h2 {
 h3 {
   line-height: 30px;
   margin: 0 auto;
-  padding-top: 35px;
+  padding-top: 30px;
   padding-bottom: 10px;
   width: 100%;
   font-weight: bold;
   font-size: 30px;
   text-align: center;
-  /* border: 1px solid red; */
 }
 
 .sub-title {
@@ -69,6 +68,8 @@ p {
   padding-top: 30px;
   border: 1px solid white;
 }
+
+/*Navigation Style*/
 
 #main-nav {
   margin-top: 0;
@@ -98,6 +99,8 @@ footer {
   padding-top: 30px;
 
 }
+
+/*Zoom Style for Navigation Links*/
 
 .zoom {
   transition: transform .2s;

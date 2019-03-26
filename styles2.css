@@ -21,6 +21,9 @@ img {
 }
 
 }
+
+/*Media Queries*/
+
 @media screen and (max-width: 769px) {
   .image {
     width: 100%;
